@@ -11,8 +11,8 @@ def RNC(p1,p2,p3):
     return num
 
 def manager():
-    p1 = int(input(("число от")))
-    p2= int(input(("число до")))
-    p3= int(input(("количество чисел")))
+    p1 = int(input(("число от: ")))
+    p2= int(input(("число до: ")))
+    p3= int(input(("количество чисел: ")))
     print(RNC(p1,p2,p3))
 manager()

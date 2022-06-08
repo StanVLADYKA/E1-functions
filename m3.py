@@ -9,6 +9,6 @@ def change(st):
     return str3
 
 def manager():
-    st = input(("введите строку с двумя словами"))
+    st = input(("введите строку с двумя словами: "))
     print(change(st))
 manager()

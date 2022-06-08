@@ -15,7 +15,7 @@ def MS(days):
     return d3
 
 def manager():
-    days = int(input(("введите кол-во суток ")))
+    days = int(input(("введите кол-во суток: ")))
     print("Часы",DH(days))
     print("Минуты",HM(days))
     print("Секунды", MS(days))
